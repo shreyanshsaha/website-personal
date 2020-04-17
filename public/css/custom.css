@@ -5,7 +5,27 @@
     color: #000;
 }
 
-.fab:hover::before{
+.fab:hover{
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.icon-leetcode-line{
+    font-size: 17px;
+    color: #000;
+    content: url('https://api.iconify.design/simple-icons:leetcode.svg?width=17px&height=17px');
+    vertical-align: -0.125em;
+}
+
+.icon-leetcode-line:hover{
     -webkit-transition-duration: 0.15s;
     transition-duration: 0.15s;
     -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);

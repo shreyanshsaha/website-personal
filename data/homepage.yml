@@ -35,7 +35,7 @@ showcase:
     - icon: "icon-instagram-line"
       URL: "https://www.instagram.com/erix_erns/"
 
-    - icon: "facebook"
+    - icon: "icon-leetcode-line"
       URL: "https://leetcode.com/yanshrey/"
 
     # - icon: "codepen"
