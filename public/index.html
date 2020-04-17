@@ -9,22 +9,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163523113-2"></script>
 <script>
-    (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({
-            'gtm.start': new Date().getTime(),
-            event: 'gtm.js'
-        });
-        var f = d.getElementsByTagName(s)[0],
-            j = d.createElement(s),
-            dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src =
-            'https://www.googletagmanager.com/gtm.js?id=GTM-000000' + i + dl;
-        f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-000000');
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-163523113-2');
 </script>
+
 
 
 <title>Home | Raditian</title>
@@ -220,14 +214,18 @@
 </style>
 
 
-<link rel="stylesheet" href="https://raditian-hugo.radity.com/css/main.css"/>
+<link rel="stylesheet" href="https://shreyanshsaha.com/css/main.css"/>
 
-<link rel="stylesheet" href="https://raditian-hugo.radity.com/css/rad-icons.css"/>
+<link rel="stylesheet" href="https://shreyanshsaha.com/css/rad-icons.css"/>
 
-<link rel="stylesheet" href="https://raditian-hugo.radity.com/css/custom.css"/>
+<link rel="stylesheet" href="https://shreyanshsaha.com/css/custom.css"/>
+
+<link rel="stylesheet" href="https://shreyanshsaha.com/css/brands.min.css"/>
+
+<link rel="stylesheet" href="https://shreyanshsaha.com/css/all.css"/>
 
 
-    
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
 </head>
@@ -237,7 +235,7 @@
 	<header class="header fixed-top rad-animation-group" id="header">
   <div class="container rad-fade-in">
     <nav class="navbar navbar-expand-lg navbar-light p-0">
-      <a class="navbar-brand" href="https://raditian-hugo.radity.com/">
+      <a class="navbar-brand" href="https://shreyanshsaha.com/">
         <span>Shreyansh</span>
         <span>Saha</span>
         
@@ -257,7 +255,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-lg-auto">
           <li class="nav-item">
-            <a class="nav-link" href="https://raditian-hugo.radity.com/">HOME</a>
+            <a class="nav-link" href="https://shreyanshsaha.com/">HOME</a>
           </li>
           
           <li class="nav-item">
@@ -291,8 +289,8 @@
     <img
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="https://raditian-hugo.radity.com/img/showcase/showcase.png"
-      data-srcset="https://raditian-hugo.radity.com/img/showcase/showcase.png 1x, https://raditian-hugo.radity.com/img/showcase/showcase@2x.png 2x"
+      data-src="https://shreyanshsaha.com/img/showcase/showcase.png"
+      data-srcset="https://shreyanshsaha.com/img/showcase/showcase.png 1x, https://shreyanshsaha.com/img/showcase/showcase@2x.png 2x"
       alt="Showcase keyboard and mouse image"
     />
   </div>
@@ -329,6 +327,22 @@
           ><i class="icon-github-line"></i
         ></a>
         
+        <a href="https://twitter.com/shreyanshsaha" target="_blank"
+          ><i class="icon-twitter-line"></i
+        ></a>
+        
+        <a href="https://www.instagram.com/erix_erns/" target="_blank"
+          ><i class="icon-instagram-line"></i
+        ></a>
+        
+        <a href="https://leetcode.com/yanshrey/" target="_blank"
+          ><i class="facebook"></i
+        ></a>
+        
+        <a href="https://www.hackerrank.com/shreyanshsaha" target="_blank"
+          ><i class="fab fa-hackerrank"></i
+        ></a>
+        
       </div>
     </div>
   </div>
@@ -336,7 +350,7 @@
     <img
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="https://raditian-hugo.radity.com/img/showcase/showcase-mobile.jpg"
+      data-src="https://shreyanshsaha.com/img/showcase/showcase-mobile.jpg"
       alt="Showcase keyboard and mouse image"
     />
   </div>
@@ -424,7 +438,7 @@
                     <i class="icon-linkedin-fill"></i>
                     Linkedin
                     <i class="icon-arrow-right"></i></a>
-                <a href="https://www.linkedin.com/in/shreyanshsaha" class="btn btn-frameless"
+                <a href="https://shreyanshsaha.com/resume.pdf" class="btn btn-frameless"
                    target="_blank">
                     <i class="icon-profile-fill"></i>
                     Download My Resume
@@ -449,20 +463,20 @@
             <h2>Contact</h2>
             <div class="row pt-2">
                 <div class="col-12 col-lg-7">
-                    <form action="#">
+                    <form method="POST" name="contact" netlify>
                         <div class="row">
                             <div class="col-12 col-sm-6">
-                                <input type="text" name="" id="full_name"
+                                <input type="text" name="name" id="full_name"
                                        placeholder="Full Name"/>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="text" name="" id="email"
+                                <input type="text" name="email" id="email"
                                        placeholder="Email Address"/>
                             </div>
                         </div>
                         <div class="row pt-4">
                             <div class="col-12">
-                                <textarea name="" id="message"
+                                <textarea name="message" id="message"
                                           cols="30" rows="3" placeholder="Type Your Message Here"></textarea>
                             </div>
                         </div>
@@ -508,15 +522,15 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="https://raditian-hugo.radity.com/">ABOUT</a>
+          <a class="nav-link" href="https://shreyanshsaha.com/">ABOUT</a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="https://raditian-hugo.radity.com/">PORTFOLIO</a>
+          <a class="nav-link" href="https://shreyanshsaha.com/">PORTFOLIO</a>
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="https://raditian-hugo.radity.com/">CONTACT</a>
+          <a class="nav-link" href="https://shreyanshsaha.com/">CONTACT</a>
         </li>
         
       </ul>
@@ -524,8 +538,8 @@
     <div class="footer__right">
       <a href="https://radity.com/"
         ><img
-          src="https://raditian-hugo.radity.com/img/general/design-and-code-radity.png"
-          srcset="https://raditian-hugo.radity.com/img/general/design-and-code-radity.png 1x, https://raditian-hugo.radity.com/img/general/design-and-code-radity@2x.png 2x"
+          src="https://shreyanshsaha.com/img/general/design-and-code-radity.png"
+          srcset="https://shreyanshsaha.com/img/general/design-and-code-radity.png 1x, https://shreyanshsaha.com/img/general/design-and-code-radity@2x.png 2x"
           alt="Design &amp; Code - Radity"
       /></a>
     </div>
@@ -533,8 +547,8 @@
 </footer>
 
 
-    <script src='https://raditian-hugo.radity.com/js/rad-animations.js'></script>
-<script src='https://raditian-hugo.radity.com/js/library/lozad.min.js'></script>
+    <script src='https://shreyanshsaha.com/js/rad-animations.js'></script>
+<script src='https://shreyanshsaha.com/js/library/lozad.min.js'></script>
 <script>
   window.addEventListener("load", function() {
     var observer = window.lozad(".lozad", {
@@ -544,11 +558,11 @@
     observer.observe();
   });
 </script>
-<script src='https://raditian-hugo.radity.com/js/library/jquery-3.3.1.slim.min.js'></script>
-<script src='https://raditian-hugo.radity.com/js/library/bootstrap.min.js'></script>
-<script src='https://raditian-hugo.radity.com/js/sticky-header.js'></script>
-<script src='https://raditian-hugo.radity.com/js/library/smooth-scroll.polyfills.min.js'></script>
-<script src='https://raditian-hugo.radity.com/js/library/fontfaceobserver.js'></script>
+<script src='https://shreyanshsaha.com/js/library/jquery-3.3.1.slim.min.js'></script>
+<script src='https://shreyanshsaha.com/js/library/bootstrap.min.js'></script>
+<script src='https://shreyanshsaha.com/js/sticky-header.js'></script>
+<script src='https://shreyanshsaha.com/js/library/smooth-scroll.polyfills.min.js'></script>
+<script src='https://shreyanshsaha.com/js/library/fontfaceobserver.js'></script>
 <script>
   (function(w) {
     
