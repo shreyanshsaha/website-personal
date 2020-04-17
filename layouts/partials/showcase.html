@@ -35,7 +35,7 @@
       <div class="col-12">
         {{ range .Site.Data.homepage.showcase.socialLinks }}
         <a href="{{ .URL | absURL }}" target="_blank"
-          ><i class="icon-{{ .icon }}-line"></i
+          ><i class="{{ .icon }}"></i
         ></a>
         {{ end }}
       </div>

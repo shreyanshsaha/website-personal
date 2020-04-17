@@ -1,1 +1,19 @@
 /* You can customize theme styles here */
+
+.fab{
+    font-size: 17px;
+    color: #000;
+}
+
+.fab:hover::before{
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}

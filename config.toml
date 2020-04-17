@@ -1,4 +1,4 @@
-baseURL = "https://raditian-hugo.radity.com/"
+baseURL = "https://shreyanshsaha.com/"
 languageCode = "en-us"
 
 # Plugins
@@ -11,7 +11,10 @@ languageCode = "en-us"
   URL = "css/rad-icons.css"
   [[params.plugins.css]]
   URL = "css/custom.css"
-
+  [[params.plugins.css]]
+  URL = "css/brands.min.css"
+  [[params.plugins.css]]
+  URL = "css/all.css"
   # JS Plugins
   [[params.plugins.js]]
   URL = "js/rad-animations.js"
@@ -19,7 +22,6 @@ languageCode = "en-us"
   URL = "js/sticky-header.js"
   [[params.plugins.js]]
   URL = "js/library/fontfaceobserver.js"
-
 
 # navigation
 [menu]
@@ -58,7 +60,7 @@ languageCode = "en-us"
 
 [params]
 
-  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+  googleTagManagerID = "UA-163523113-2" # Google Analytics works with Google Tag Manager
 
   [params.logo]
     text1 = "Shreyansh"

@@ -16,17 +16,15 @@ showcase:
     URL: "mailto:yanshrey@gmail.com"
 
   socialLinks:
-    - icon: "linkedin"
+    - icon: "icon-linkedin-line"
       URL: "https://www.linkedin.com/in/shreyanshsaha"
 
-    - icon: "github"
+    - icon: "icon-github-line"
       URL: "https://github.com/shreyanshsaha"
 
-    # - icon: "twitter"
-    #   URL: "https://twitter.com/radity"
+    - icon: "icon-twitter-line"
+      URL: "https://twitter.com/shreyanshsaha"
 
-    # - icon: "dribbble"
-    #   URL: "https://dribbble.com/radity"
 
     # - icon: "behance"
     #   URL: "https://www.behance.net/radity-digital"
@@ -34,17 +32,20 @@ showcase:
     # - icon: "youtube"
     #   URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
 
-    # - icon: "instagram"
-    #   URL: "https://www.instagram.com/teamradity/"
+    - icon: "icon-instagram-line"
+      URL: "https://www.instagram.com/erix_erns/"
 
-    # - icon: "facebook"
-    #   URL: "https://www.facebook.com/raditycom/"
+    - icon: "facebook"
+      URL: "https://leetcode.com/yanshrey/"
 
     # - icon: "codepen"
     #   URL: "#"
 
     # - icon: "yelp"
     #   URL: "https://www.yelp.com/"
+
+    - icon: "fab fa-hackerrank"
+      URL: "https://www.hackerrank.com/shreyanshsaha"
 
 # about
 about:
@@ -117,36 +118,36 @@ client_and_work:
   title: "Clients & Works"
   enable: false
 
-  clients:
-    - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
+  # clients:
+  #   - logo:
+  #       x: "img/clients/asgardia.png"
+  #       _2x: "img/clients/asgardia@2x.png"
+  #     alt: "Asgardia"
 
-    - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
+  #   - logo:
+  #       x: "img/clients/earth-2.png"
+  #       _2x: "img/clients/earth-2@2x.png"
+  #     alt: "Earth 2.0"
 
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
+  #   - logo:
+  #       x: "img/clients/goldline.png"
+  #       _2x: "img/clients/goldline@2x.png"
+  #     alt: "Goldline"
 
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
+  #   - logo:
+  #       x: "img/clients/kanba.png"
+  #       _2x: "img/clients/kanba@2x.png"
+  #     alt: "Kanba"
 
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
+  #   - logo:
+  #       x: "img/clients/zoo-tv.png"
+  #       _2x: "img/clients/zoo-tv@2x.png"
+  #     alt: "Zoo"
 
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
+  #   - logo:
+  #       x: "img/clients/ztos.png"
+  #       _2x: "img/clients/ztos@2x.png"
+  #     alt: "Ztos"
 
   works:
     - title: "Radity Finance - UI Kit"
