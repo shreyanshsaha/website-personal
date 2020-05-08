@@ -233,9 +233,6 @@ skill:
     - "DMBS"
     - "Rest API"
 
-
-
-
 # contact
 contact:
   enable: true

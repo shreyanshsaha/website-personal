@@ -27,13 +27,13 @@ languageCode = "en-us"
 [menu]
 
   [[menu.header]]
-  name = "About"
-  URL = "#about"
+  name = "Education"
+  URL = "#education"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Experience"
+  URL = "#experience"
   weight = 3
 
   [[menu.header]]
@@ -48,13 +48,13 @@ languageCode = "en-us"
 
 
   [[menu.footer]]
-  name = "About"
-  URL = "#about"
+  name = "Education"
+  URL = "#education"
   weight = 2
 
   [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Experience"
+  URL = "#experience"
   weight = 3
 
   [[menu.footer]]
