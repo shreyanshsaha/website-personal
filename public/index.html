@@ -5,7 +5,7 @@
 <head>
 	<meta name="generator" content="Hugo 0.69.2" />
 
-    <meta charset="UTF-8"/>
+	<meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 
@@ -225,7 +225,7 @@
 <link rel="stylesheet" href="https://shreyanshsaha.com/css/all.css"/>
 
 
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
 </head>
@@ -267,6 +267,12 @@
           <li class="nav-item">
             <a data-scroll class="nav-link" href="#portfolio"
               >PORTFOLIO</a
+            >
+          </li>
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="#skill"
+              >SKILL</a
             >
           </li>
           
@@ -411,7 +417,7 @@
                 
                 <div class="experience">
                     <div class="experience__date">Apr 2019 - Mar 2020</div>
-                    <div class="experience__title">Technical Head - Mar&#39;s Rover Division</div>
+                    <div class="experience__title">Technical Head - Mars Rover Division</div>
                     <div class="experience__company">Technocrat&#39;s Robotics</div>
                 </div>
                 
@@ -453,10 +459,96 @@
 	
 
 
-    
+	
 
 
-    
+	
+<section id="skill" class="section section-skills rad-animation-group">
+	<div class="container">
+		<div class="rad-fade-down">
+			<div class="col-12">
+				<h2>Skills</h2>
+				<div class="row mt-4">
+					
+					<div class="col-lg-6">
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 85%;"
+								aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<p class="lead"><b>Data Science & Machine Learning</b></p>
+					</div>
+					
+					<div class="col-lg-6">
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 95%;"
+								aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<p class="lead"><b>Web Development Full Stack</b></p>
+					</div>
+					
+					<div class="col-lg-6">
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%;"
+								aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<p class="lead"><b>Embedded System & Robotics</b></p>
+					</div>
+					
+					<div class="col-lg-6">
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%;"
+								aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<p class="lead"><b>Mobile Application Development</b></p>
+					</div>
+					
+				</div>
+				<div class="row mt-2">
+					
+					<span class="badge my-1 mx-1 text-white">Python</span>
+					
+					<span class="badge my-1 mx-1 text-white">MEA/RN</span>
+					
+					<span class="badge my-1 mx-1 text-white">Flutter</span>
+					
+					<span class="badge my-1 mx-1 text-white">Java</span>
+					
+					<span class="badge my-1 mx-1 text-white">C&#43;&#43;</span>
+					
+					<span class="badge my-1 mx-1 text-white">Javascript</span>
+					
+					<span class="badge my-1 mx-1 text-white">Cloud Computing</span>
+					
+					<span class="badge my-1 mx-1 text-white">Hadoop</span>
+					
+					<span class="badge my-1 mx-1 text-white">DMBS</span>
+					
+					<span class="badge my-1 mx-1 text-white">Rest API</span>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script>
+	
+	let colors = ["#e93e34", "#8e24aa", "#1565c0", "#388e3c", "#f4511e"];
+	let progressColors = ["#1565c0", "#43a047", "#ff8f00", "#f4511e", "#e93e34"];
+	let skillBadges = document.getElementsByClassName("badge");
+	let progressBar = document.getElementsByClassName("progress-bar");
+	for (let badge of skillBadges) {
+		badge.style['background-color'] = colors[Math.floor(Math.random() * colors.length)];
+	}
+	let i = 0;
+	for (let progress of progressBar) {
+		progress.style['background-color'] = progressColors[i % progressColors.length];
+		i += 1;
+	}
+</script>
+
+
+	
 <section id="contact" class="section section--contact pt-0">
     <div class="container">
         <div class="contact">
@@ -505,7 +597,7 @@
 
 
 
-    
+	
 
 
 	<footer class="footer">
@@ -530,6 +622,10 @@
         </li>
         
         <li class="nav-item">
+          <a class="nav-link" href="https://shreyanshsaha.com/">SKILL</a>
+        </li>
+        
+        <li class="nav-item">
           <a class="nav-link" href="https://shreyanshsaha.com/">CONTACT</a>
         </li>
         
@@ -547,7 +643,7 @@
 </footer>
 
 
-    <script src='https://shreyanshsaha.com/js/rad-animations.js'></script>
+	<script src='https://shreyanshsaha.com/js/rad-animations.js'></script>
 <script src='https://shreyanshsaha.com/js/library/lozad.min.js'></script>
 <script>
   window.addEventListener("load", function() {
