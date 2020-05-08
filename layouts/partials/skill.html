@@ -1,0 +1,43 @@
+{{ if .Site.Data.homepage.skill.enable }}
+<section id="skill" class="section section-skills rad-animation-group">
+	<div class="container">
+		<div class="rad-fade-down">
+			<div class="col-12">
+				<h2>Skills</h2>
+				<div class="row mt-4">
+					{{ range .Site.Data.homepage.skill.items }}
+					<div class="col-lg-6">
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped" role="progressbar" style="width: {{ .amount }}%;"
+								aria-valuenow="{{ .amount }}" aria-valuemin="0" aria-valuemax="100"></div>
+						</div>
+						<p class="lead"><b>{{ .name | safeHTML }}</b></p>
+					</div>
+					{{ end }}
+				</div>
+				<div class="row mt-2">
+					{{ range .Site.Data.homepage.skill.pills }}
+					<span class="badge my-1 mx-1 text-white">{{.}}</span>
+					{{ end }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<script>
+	// let colors = ["#d32f2f", "#880e4f", "#7b1fa2", "#3949ab", "#1b5e20", "#bf360c", "#455a64"]
+	let colors = ["#e93e34", "#8e24aa", "#1565c0", "#388e3c", "#f4511e"];
+	let progressColors = ["#1565c0", "#43a047", "#ff8f00", "#f4511e", "#e93e34"];
+	let skillBadges = document.getElementsByClassName("badge");
+	let progressBar = document.getElementsByClassName("progress-bar");
+	for (let badge of skillBadges) {
+		badge.style['background-color'] = colors[Math.floor(Math.random() * colors.length)];
+	}
+	let i = 0;
+	for (let progress of progressBar) {
+		progress.style['background-color'] = progressColors[i % progressColors.length];
+		i += 1;
+	}
+</script>
+{{ end }}

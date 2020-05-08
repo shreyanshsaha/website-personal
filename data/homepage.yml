@@ -101,7 +101,7 @@ experience:
       company: "IEEE Computer Society"
       duration: "July 2019 - Current"
 
-    - title: "Technical Head - Mar's Rover Division"
+    - title: "Technical Head - Mars Rover Division"
       company: "Technocrat's Robotics"
       duration: "Apr 2019 - Mar 2020"
 
@@ -208,6 +208,33 @@ testimonial:
       image:
         x: "img/testimonials/antonio-willis.jpg"
         _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# skills
+skill:
+  enable: true
+  items:
+    - name: "Data Science & Machine Learning"
+      amount: 85
+    - name: "Web Development Full Stack"
+      amount: 95
+    - name: "Embedded System & Robotics"
+      amount: 70
+    - name: "Mobile Application Development"
+      amount: 60
+  pills:
+    - "Python"
+    - "MEA/RN"
+    - "Flutter"
+    - "Java"
+    - "C++"
+    - "Javascript"
+    - "Cloud Computing"
+    - "Hadoop"
+    - "DMBS"
+    - "Rest API"
+
+
+
 
 # contact
 contact:
