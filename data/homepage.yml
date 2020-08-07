@@ -97,6 +97,9 @@ experience:
     URL: "resume.pdf"
 
   items:
+    - title: "Software Development Intern"
+      company: "JP Morgan & Chase"
+      duration: "June 2020 - July 2020"
     - title: "Head Project's Manager"
       company: "IEEE Computer Society"
       duration: "July 2019 - Current"
@@ -108,10 +111,6 @@ experience:
     - title: "Project Lead - Website Development"
       company: "Renaissance 2k19"
       duration: "sept 2018 - Feb 2019"
-
-    - title: "Robotics Engineer"
-      company: "Technocrats Robotics"
-      duration: "Octr 2018 - Feb 2019"
 
 # Client & Work
 client_and_work:
@@ -219,11 +218,11 @@ skill:
       amount: 95
     - name: "Embedded System & Robotics"
       amount: 70
-    - name: "Mobile Application Development"
-      amount: 60
+    - name: "Microservices Architecture"
+      amount: 50
   pills:
     - "Python"
-    - "MEA/RN"
+    - "MERN"
     - "Flutter"
     - "Java"
     - "C++"
@@ -231,7 +230,11 @@ skill:
     - "Cloud Computing"
     - "Hadoop"
     - "DMBS"
-    - "Rest API"
+    - "REST"
+    - "Kafka"
+    - "SCRUM"
+    - "Docker"
+    - "UI/UX"
 
 # contact
 contact:

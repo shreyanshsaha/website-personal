@@ -46,7 +46,6 @@ languageCode = "en-us"
   URL = "#contact"
   weight = 5
 
-
   [[menu.footer]]
   name = "Education"
   URL = "#education"
