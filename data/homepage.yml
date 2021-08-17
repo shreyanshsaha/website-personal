@@ -97,9 +97,14 @@ experience:
     URL: "resume.pdf"
 
   items:
+    - title: "Software Engineer"
+      company: "PayPal"
+      duration: "Februrary 2021 - Present"
+
     - title: "Software Development Intern"
       company: "JP Morgan & Chase"
       duration: "June 2020 - July 2020"
+
     - title: "Head Project's Manager"
       company: "IEEE Computer Society"
       duration: "July 2019 - Current"
@@ -108,9 +113,9 @@ experience:
       company: "Technocrat's Robotics"
       duration: "Apr 2019 - Mar 2020"
 
-    - title: "Project Lead - Website Development"
-      company: "Renaissance 2k19"
-      duration: "sept 2018 - Feb 2019"
+    # - title: "Project Lead - Website Development"
+    #   company: "Renaissance 2k19"
+    #   duration: "sept 2018 - Feb 2019"
 
 # Client & Work
 client_and_work:
@@ -219,7 +224,7 @@ skill:
     - name: "Embedded System & Robotics"
       amount: 70
     - name: "Microservices Architecture"
-      amount: 50
+      amount: 90
   pills:
     - "Python"
     - "MERN"
@@ -227,7 +232,8 @@ skill:
     - "Java"
     - "C++"
     - "Javascript"
-    - "Cloud Computing"
+    - "AWS"
+    - "GCP"
     - "Hadoop"
     - "DMBS"
     - "REST"
@@ -235,6 +241,7 @@ skill:
     - "SCRUM"
     - "Docker"
     - "UI/UX"
+    - "React Native"
 
 # contact
 contact:
