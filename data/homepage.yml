@@ -3,7 +3,7 @@ showcase:
   enable: true
   title: "Hello, I’m Shreyansh."
   subtitle: "Software Engineer"
-  description: "I'm a Computer Science student currently pursuing my Bachelor's Degree. "
+  description: "I'm a CS Graduate working as a Software Engineer at PayPal. Technology Enthusiast."
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -217,15 +217,18 @@ testimonial:
 skill:
   enable: true
   items:
+    - name: "Microservices Architecture"
+      amount: 95
     - name: "Data Science & Machine Learning"
       amount: 85
     - name: "Web Development Full Stack"
-      amount: 95
+      amount: 90
     - name: "Embedded System & Robotics"
       amount: 70
-    - name: "Microservices Architecture"
-      amount: 90
+
   pills:
+    - "Java Spring"
+    - "Spring Batch"
     - "Python"
     - "MERN"
     - "Flutter"
@@ -252,9 +255,9 @@ contact:
     full_name: "Full Name"
     email: "Email Address"
     message: "Type Your Message Here"
-  phone:
-    title: "Phone Number"
-    number: "+91 75502 26879"
+  # phone:
+  #   title: "Phone Number"
+  #   number: "+91 75502 26879"
   email:
     title: "Email"
     email: '<a href="mailto:yanshrey@gmail.com">yanshrey@gmail.com</a>'
