@@ -97,9 +97,13 @@ experience:
     URL: "resume.pdf"
 
   items:
-    - title: "Software Engineer"
+    - title: "Software Engineer II"
       company: "PayPal"
-      duration: "Februrary 2021 - Present"
+      duration: "August 2022 - Present"
+
+    - title: "Software Engineer I"
+      company: "PayPal"
+      duration: "August 2021 - August 2022"
 
     - title: "Software Development Intern"
       company: "JP Morgan & Chase"
@@ -261,9 +265,9 @@ contact:
   email:
     title: "Email"
     email: '<a href="mailto:yanshrey@gmail.com">yanshrey@gmail.com</a>'
-  address:
-    title: "Address"
-    address: "A Block, Vellore Institute of Technology, Chennai, Tamil Nadu, India"
+  # address:
+  #   title: "Address"
+    # address: "A Block, Vellore Institute of Technology, Chennai, Tamil Nadu, India"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
