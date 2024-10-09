@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1>Server Failure Analysis</h1>
+    <div class="mb-3">
+      <div class="container">
+        <label for="" class="form-label">Number of Servers</label>
+        <input type="text" class="form-control" name="" id="numServers" aria-describedby="helpId"
+          placeholder="Specify Number of Servers" />
+
+        <div class="mb-3">
+          <label for="" class="form-label">Failure Rate</label>
+          <input type="text" class="form-control" name="" id="failureRate" aria-describedby="helpId"
+            placeholder="Specify Failure Rate of 1 Server" />
+        </div>
+
+        <button class="btn btn-primary" onclick="calculate()">Calculate</button>
+      </div>
+
+      <div class="container mt-4">
+        <canvas id="myChart"></canvas>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script>
+    function factorial(x) {
+      return (x > 1) ? x * factorial(x - 1) : 1;
+    }
+
+    function comb(n, r) {
+      return factorial(n) / (factorial(r) * factorial(n - r))
+    }
+
+    function calculate() {
+      let numServers = document.getElementById("numServers").value
+      let failureRate = document.getElementById("failureRate").value
+
+      if (!numServers || !failureRate) return alert("Data is missing")
+
+      let probDistribution = []
+
+      for (let i = 0; i <= numServers; i++) {
+        let failureProb = comb(numServers, i) * Math.pow((1 - failureRate), (numServers - i)) * Math.pow((failureRate), i)
+        probDistribution.push(failureProb * 100)
+      }
+      console.log(probDistribution)
+
+      console.log(numServers, failureRate)
+
+      const ctx = document.getElementById('myChart');
+
+      let chartStatus = Chart.getChart("myChart"); // <canvas> id
+      if (chartStatus != undefined) {
+        chartStatus.destroy();
+      }
+
+      new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: [...Array(101).keys()],
+          datasets: [{
+            label: '% Failure',
+            data: probDistribution,
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: false
+            }
+          }
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
