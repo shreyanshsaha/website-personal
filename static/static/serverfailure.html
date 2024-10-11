@@ -78,7 +78,7 @@
       new Chart(ctx, {
         type: 'line',
         data: {
-          labels: [...Array(101).keys()],
+          labels: [...Array(probDistribution.length).keys()],
           datasets: [{
             label: '% Failure',
             data: probDistribution,
